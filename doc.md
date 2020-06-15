@@ -1,3 +1,6 @@
+## Team:
+
+
 ## COLUMN-ORIENTED DATABASE
 
 ### Description
@@ -50,6 +53,6 @@ Provides an adaptive query processing engine to quickly analyze data, automatica
 - [greenice](https://greenice.net/elasticsearch-vs-solr-vs-sphinx-best-open-source-search-platform-comparison/)
 - [mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4ODY3NjQ3LDE0MTc1NjU0NDMsOTAwOD
-czMzYsLTE2OTA4NTcyODNdfQ==
+eyJoaXN0b3J5IjpbLTIxMjUyMDg2MjgsOTE4ODY3NjQ3LDE0MT
+c1NjU0NDMsOTAwODczMzYsLTE2OTA4NTcyODNdfQ==
 -->
