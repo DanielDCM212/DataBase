@@ -12,10 +12,10 @@ SEARCH DATABASE
 The primary aim of the search is to retrieve the most relevant matches to the user’s queries, excluding other general content from the website.
 The system should be able to narrow down the search by using ranges (price, dates, sizes, etc.), sorting (by popularity, date, price) and filtering (including only desirable parameters). When we talk about web apps where information changes dynamically (prices, description details, availability of goods), it is extremely important to have near real-time updates; for example, in eCommerce or booking engines to show goods and services available in stock, engines can provide recommendations when looking up for the most interesting products or information, to improve the user experience.
 
-|  |column-oriented databases  |
-|--|--|
-| Benefits | High performance on aggregation queries (like COUNT, SUM, AVG, MIN, MAX) <br> Highly efficient data compression and/or partitioning<br>True scalability and fast data loading for Big Data<br>Accessible by many 3rd  party BI analytic tools <br> Fairly simple systems administration|full-text search (by simple words and phrases or multiple forms of a word or phrase)<br>Multifield search<br>Highlighting (visual indicator of the searched words)<br>search by synonyms<br>Autocomplete suggestions<br>faceted search (opperations of counting)<br>fuzzy search(algorithms such as levestain algorithm, to detect typos or misspellings)<br>geospacial search(an object such as location according to its latitude an longitude)
-| advantages for certain types of systems|Data Warehouses and Business Intelligence<br>Customer Relationship Management (CRM)<br>Library Card Catalogs<br>Ad hoc query systems
+|  |column-oriented databases  ||
+|--|--|--|
+| Benefits | 
+| advantages for certain types of systems|Data Warehouses and Business Intelligence<br>Customer Relationship Management (CRM)<br>Library Card Catalogs<br>Ad hoc query systems|1. Near real-time<br>2. High scalability<br>3. Not only indexer but used as a database<br>4. Visualization of the Data<br>5. Machine Learning for anomaly detection and outlier detection <br>6. Fast search
 |Disadvantages|Transactions are to be avoided or just not supported<br>Queries with table joins can reduce high performance<br> Record updates and deletes reduce storage efficiency<br> Effective partitioning/indexing schemes can be difficult to design
 |DB|[SAP Sybase IQ](https://www.sap.com/index.html)<br>[Infobright](http://www.ignitetech.com/solutions/information-technology/infobrightdb)<br>[Vertica (HP)](https://www.vertica.com/)<br>[ParAccel](https://www.actian.com/)<br>[Microsoft SQL Server](https://www.microsoft.com/)
 
@@ -31,7 +31,7 @@ A3MDQ2NTUsLTUzNTg2ODk4M119
 || SEARCH DATABASE|
 |--|--|
 | Benefits      | |
-| ADVANTAGES    | 1. Near real-time<br>2. High scalability<br>3. Not only indexer but used as a database<br>4. Visualization of the Data<br>5. Machine Learning for anomaly detection and outlier detection <br>6. Fast search |
+| ADVANTAGES    |  |
 | DISADVANTAGES | * The configuration of the system is not very intuitive<br>* Many updates in the database might affect the retrival of results<br>* It is needed to review the date converge, many problem matching for recen databases <br> |
 | DB            | * [ELASTIC SEARCH](https://www.elastic.co/)  <br>* [SOLR](https://lucene.apache.org/solr/)  <br>* [SPLUNK](https://www.splunk.com/)   <br>* [SPHINX](http://sphinxsearch.com/) |
 
@@ -42,5 +42,6 @@ A3MDQ2NTUsLTUzNTg2ODk4M119
 
 [mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODcwMzgzMiwtMTY5MDg1NzI4M119
+eyJoaXN0b3J5IjpbLTE3NjI1NzQwNjcsLTE2OTA4NTcyODNdfQ
+==
 -->
