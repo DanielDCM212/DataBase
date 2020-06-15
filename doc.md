@@ -50,6 +50,6 @@ Provides an adaptive query processing engine to quickly analyze data, automatica
 - [greenice](https://greenice.net/elasticsearch-vs-solr-vs-sphinx-best-open-source-search-platform-comparison/)
 - [mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDE4MDY0OSwxNDE3NTY1NDQzLDkwMD
-g3MzM2LC0xNjkwODU3MjgzXX0=
+eyJoaXN0b3J5IjpbMTY1NDQ4MjQxLDE0MTc1NjU0NDMsOTAwOD
+czMzYsLTE2OTA4NTcyODNdfQ==
 -->
