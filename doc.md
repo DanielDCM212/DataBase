@@ -37,8 +37,7 @@ In addition, this service supports warm data analysis and raw data analysis by d
 Timestream is applicable in scenarios like IoT and application operations.
 Provides an adaptive query processing engine to quickly analyze data, automatically summarize, retain, layer, and compress data. Timestream users are billed separately for writes, stored data, and scanned query data and can achieve efficient administration with this serverless service.
 
-
-|  |Column-Oriented DB  |SEARCH DATABASE| |
+|  |Column-Oriented DB  |Search DB| Time-Series |
 |--|--|--|--|
 | Benefits | High performance on aggregation queries (like COUNT, SUM, AVG, MIN, MAX) <br> Highly efficient data compression and/or partitioning<br>True scalability and fast data loading for Big Data<br>Accessible by many 3rd  party BI analytic tools <br> Fairly simple systems administration|full-text search (by simple words and phrases or multiple forms of a word or phrase)<br>Multifield search<br>Highlighting (visual indicator of the searched words)<br>search by synonyms<br>Autocomplete suggestions<br>faceted search (opperations of counting)<br>fuzzy search(algorithms such as levestain algorithm, to detect typos or misspellings)<br>geospacial search(an object such as location according to its latitude an longitude)|
 | advantages for certain types of systems|Data Warehouses and Business Intelligence<br>Customer Relationship Management (CRM)<br>Library Card Catalogs<br>Ad hoc query systems|1. Near real-time<br>2. High scalability<br>3. Not only indexer but used as a database<br>4. Visualization of the Data<br>5. Machine Learning for anomaly detection and outlier detection <br>6. Fast search|
