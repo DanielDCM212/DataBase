@@ -39,3 +39,6 @@ The system should be able to narrow down the search by using ranges (price, date
 [greenice](https://greenice.net/elasticsearch-vs-solr-vs-sphinx-best-open-source-search-platform-comparison/)
 
 [mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2OTA4NTcyODNdfQ==
+-->
