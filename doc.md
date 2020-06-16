@@ -1,6 +1,8 @@
 ## Team:
 
- - Cuevas Mendez Daniel Danilo
+ - [Jeorval Cano]()
+ - [Andres Hernandez]()
+ - []
 
 ## COLUMN-ORIENTED DATABASE
 
@@ -54,6 +56,6 @@ Provides an adaptive query processing engine to quickly analyze data, automatica
 - [greenice](https://greenice.net/elasticsearch-vs-solr-vs-sphinx-best-open-source-search-platform-comparison/)
 - [mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzQzNjk5NSw5MTg4Njc2NDcsMTQxNz
+eyJoaXN0b3J5IjpbMTgyNjQ2ODkzMSw5MTg4Njc2NDcsMTQxNz
 U2NTQ0Myw5MDA4NzMzNiwtMTY5MDg1NzI4M119
 -->
