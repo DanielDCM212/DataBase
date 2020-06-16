@@ -1,8 +1,8 @@
 ## Team:
 
- - [Jeorval Cano]()
- - [Andres Hernandez]()
- - []
+ - [Jeorval Cano](https://github.com/JeorvalCM)
+ - [Andres Hernandez](https://github.com/AndresHdez2000)
+ - [Daniel Cuevas](https://github.com/DanielDCM212)
 
 ## COLUMN-ORIENTED DATABASE
 
@@ -56,6 +56,6 @@ Provides an adaptive query processing engine to quickly analyze data, automatica
 - [greenice](https://greenice.net/elasticsearch-vs-solr-vs-sphinx-best-open-source-search-platform-comparison/)
 - [mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjQ2ODkzMSw5MTg4Njc2NDcsMTQxNz
+eyJoaXN0b3J5IjpbLTM2NDIxNzAwMSw5MTg4Njc2NDcsMTQxNz
 U2NTQ0Myw5MDA4NzMzNiwtMTY5MDg1NzI4M119
 -->
