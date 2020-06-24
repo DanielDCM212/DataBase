@@ -19,6 +19,7 @@ Columnar systems generally outperform relationship systems in almost all circums
 
 
 
+
 #### Benefits
 > + High performance on aggregation queries (like COUNT, SUM, AVG, MIN, MAX)  
 > + Highly efficient data compression and/or partitioning  
@@ -57,6 +58,6 @@ Columnar systems generally outperform relationship systems in almost all circums
 |  |  |  |
 |  |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0Nzc2MjgxLDIwNTIzMzcwNjcsMjA2Mz
-c5NjYzXX0=
+eyJoaXN0b3J5IjpbMTY4NDgwMjAyNywyMDUyMzM3MDY3LDIwNj
+M3OTY2M119
 -->
