@@ -11,8 +11,12 @@
 Traditional relational databases are row-oriented, with each row having a row-id and each field within the row stored together in a table. 
 Every time you look something up in a row-oriented database, every row is scanned, regardless of which columns you require. 
 
-### Rendimiento
-Los sistemas columnares por lo general superan a los sistemas de relaciones en casi todas las circunstancias, pero el margen puede variar ampliamente. Las consultas que incluyen c´alculos o acceso individual a los registros puede ser tan lento o m´as que un sistema relacional adecuadamente indexado.
+
+### Performance
+
+Columnar systems generally outperform relationship systems in almost all circumstances, but the range can vary widely. Queries that include calculations or individual access to records can be as slow or slower than a properly indexed relational system.
+
+
 
 
 #### Benefits
@@ -53,6 +57,6 @@ Los sistemas columnares por lo general superan a los sistemas de relaciones en c
 |  |  |  |
 |  |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTE0MjQ2OCwyMDUyMzM3MDY3LDIwNj
-M3OTY2M119
+eyJoaXN0b3J5IjpbNTk0Nzc2MjgxLDIwNTIzMzcwNjcsMjA2Mz
+c5NjYzXX0=
 -->
