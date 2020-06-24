@@ -48,12 +48,12 @@ Columnar databases use different techniques to imitate a relational structure. S
 > + [Vertica (HP)](https://www.vertica.com/)
 > + [ParAccel](https://www.actian.com/)
 > + [Microsoft SQL Server](https://www.microsoft.com/)
-> +[Apache Cassandra](https://cassandra.apache.org/)
->  +[Vertica](https://www.vertica.com/)
+> + [Apache Cassandra](https://cassandra.apache.org/)
+>  + [Vertica](https://www.vertica.com/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjUyNjc4NDAsLTY4NDY0ODg5MCwxNj
-E0Mjc1NzMyLDEwMDc0Mzc5ODAsMjA1MjMzNzA2NywyMDYzNzk2
-NjNdfQ==
+eyJoaXN0b3J5IjpbNTI4MTEyNTQ4LC0xMjY1MjY3ODQwLC02OD
+Q2NDg4OTAsMTYxNDI3NTczMiwxMDA3NDM3OTgwLDIwNTIzMzcw
+NjcsMjA2Mzc5NjYzXX0=
 -->
