@@ -40,7 +40,9 @@ Every time you look something up in a row-oriented database, every row is scanne
 |  |  |  |
 |--|--|--|
 |  |  |  |
-
+|  |  |  |
+|  |  |  |
+|  |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Mzc5NjYzXX0=
+eyJoaXN0b3J5IjpbMjA1MjMzNzA2NywyMDYzNzk2NjNdfQ==
 -->
