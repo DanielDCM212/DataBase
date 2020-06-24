@@ -16,7 +16,8 @@ Every time you look something up in a row-oriented database, every row is scanne
 
 Columnar systems generally outperform relationship systems in almost all circumstances, but the range can vary widely. Queries that include calculations or individual access to records can be as slow or slower than a properly indexed relational system.
 
-
+Structural limitations
+Columnar databases use different techniques to imitate a relational structure. Some require the same main key in all tables, that is, the database hierarchy is limited to two levels. 
 
 
 
@@ -58,6 +59,6 @@ Columnar systems generally outperform relationship systems in almost all circums
 |  |  |  |
 |  |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDgwMjAyNywyMDUyMzM3MDY3LDIwNj
+eyJoaXN0b3J5IjpbLTU0NDE1OTU5MywyMDUyMzM3MDY3LDIwNj
 M3OTY2M119
 -->
