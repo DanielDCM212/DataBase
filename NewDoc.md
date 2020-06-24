@@ -14,7 +14,7 @@ Every time you look something up in a row-oriented database, every row is scanne
 
 ### Performance
 
-> Columnar systems generally outperform relationship systems in almost all circumstances, but the range can vary widely. Queries that include calculations or individual access to records can be as slow or slower than a properly indexed relational system.
+Columnar systems generally outperform relationship systems in almost all circumstances, but the range can vary widely. Queries that include calculations or individual access to records can be as slow or slower than a properly indexed relational system.
 
 
 
@@ -57,6 +57,6 @@ Every time you look something up in a row-oriented database, every row is scanne
 |  |  |  |
 |  |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MjE4ODExLDIwNTIzMzcwNjcsMjA2Mz
+eyJoaXN0b3J5IjpbNTk0Nzc2MjgxLDIwNTIzMzcwNjcsMjA2Mz
 c5NjYzXX0=
 -->
