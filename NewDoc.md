@@ -11,6 +11,10 @@
 Traditional relational databases are row-oriented, with each row having a row-id and each field within the row stored together in a table. 
 Every time you look something up in a row-oriented database, every row is scanned, regardless of which columns you require. 
 
+### Rendimiento
+Los sistemas columnares por lo general superan a los sistemas de relaciones en casi todas las circunstancias, pero el margen puede variar ampliamente. Las consultas que incluyen c´alculos o acceso individual a los registros puede ser tan lento o m´as que un sistema relacional adecuadamente indexado.
+
+
 #### Benefits
 > + High performance on aggregation queries (like COUNT, SUM, AVG, MIN, MAX)  
 > + Highly efficient data compression and/or partitioning  
@@ -30,6 +34,8 @@ Every time you look something up in a row-oriented database, every row is scanne
 > + Record updates and deletes reduce storage efficiency 
 > + Effective partitioning/indexing schemes can be difficult to design
 
+
+
 #### DB
 > + [SAP Sybase IQ](https://www.sap.com/index.html)
 > + [Infobright](http://www.ignitetech.com/solutions/information-technology/infobrightdb)
@@ -47,6 +53,6 @@ Every time you look something up in a row-oriented database, every row is scanne
 |  |  |  |
 |  |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzU0OTAwMywyMDUyMzM3MDY3LDIwNj
+eyJoaXN0b3J5IjpbMTgzNTE0MjQ2OCwyMDUyMzM3MDY3LDIwNj
 M3OTY2M119
 -->
