@@ -63,9 +63,8 @@ Columnar databases use different techniques to imitate a relational structure. S
 | Pricing | Open-source | Open-source | Open-source |
 | Publisher | [Apache Software Foundation](https://www.apache.org/) | [Apache Software Foundation](https://www.apache.org/) | [ClickHouse](https://clickhouse.tech/) |
 | Website | https://cassandra.apache.org/ | https://hbase.apache.org/ | https://clickhouse.tech/ |
-|  ||||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDE2ODQ0OSwzNDMzNzY3NTgsLTc1MT
+eyJoaXN0b3J5IjpbLTgxNjYzMDUxOSwzNDMzNzY3NTgsLTc1MT
 gyOTgyMCwtOTIwMTE2MDE0LDUyODExMjU0OCwtMTI2NTI2Nzg0
 MCwtNjg0NjQ4ODkwLDE2MTQyNzU3MzIsMTAwNzQzNzk4MCwyMD
 UyMzM3MDY3LDIwNjM3OTY2M119
