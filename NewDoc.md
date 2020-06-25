@@ -63,6 +63,84 @@ Columnar databases use different techniques to imitate a relational structure. S
 | Pricing | Open-source | Open-source | Open-source |
 | Publisher | [Apache Software Foundation](https://www.apache.org/) | [Apache Software Foundation](https://www.apache.org/) | [ClickHouse](https://clickhouse.tech/) |
 | Website | https://cassandra.apache.org/ | https://hbase.apache.org/ | https://clickhouse.tech/ |
+
+## SEARCH DATABASE
+
+### Description
+
+The primary aim of the search is to retrieve the most relevant matches to the user’s queries, excluding other general content from the website.
+The system should be able to narrow down the search by using ranges (price, dates, sizes, etc.), sorting (by popularity, date, price) and filtering (including only desirable parameters). When we talk about web apps where information changes dynamically (prices, description details, availability of goods), it is extremely important to have near real-time updates; for example, in eCommerce or booking engines to show goods and services available in stock, engines can provide recommendations when looking up for the most interesting products or information, to improve the user experience.
+
+#### Performance
+
+When the database grows, it becomes more difficult to look up. Search Database scales up while your DB gets bigger, so the search speed does not slow down, can be used not only as an indexer, but also as a data storage. Nevertheless, we would not recommend using it as your primary storage, and we still keep data in the main DB for better security and reliability, using Search Engines only to index data and store logs
+
+#### Structural Limitations 
+
+Multi get and multi term vectors API throw IndexNotFoundException when trying to access non existing indices that the user is not authorized for. By doing that they leak information regarding the fact that the index doesn’t exist, while the user is not authorized to know anything about those indices.
+
+#### Benefits
+
+ * full-text search (by simple words and phrases or multiple forms of a word or phrase)
+ * Multifield search
+ * Highlighting (visual indicator of the searched words)
+ * Search by synonyms
+ * Autocomplete suggestions
+ * faceted search (opperations of counting)
+ * fuzzy search(algorithms such as levestain algorithm, to detect typos or misspellings)
+ * geospacial search(an object such as location according to its latitude an longitude)
+
+#### Advantages
+
+ 1. Near real-time
+ 2. High scalability
+ 3. Not only indexer but used as a database
+ 4. Visualization of the Data
+ 5. Machine Learning for anomaly detection and outlier detection 
+ 6. Fast search 
+
+#### Disadvantages
+
+* The configuration of the system is not very intuitive
+* Many updates in the database might affect the retrival of results
+* It is needed to review the date converge, many problem matching for recen databases 
+
+#### DB
+* [ELASTIC SEARCH](https://www.elastic.co/)  
+* [SOLR](https://lucene.apache.org/solr/)
+* [SPLUNK](https://www.splunk.com/)  
+* [SPHINX](http://sphinxsearch.com/)
+
+
+### Matrix comparisson
+
+|  |Elastic Search  |Solr| Splunk |
+|Description|A distributed, RESTful modern search and analytics engine based on Apache Lucene|A widely used distributed, scalable search engine based on Apache Lucene|Analytics Platform for Big Data|
+|Primary database model|Search engine|Search engine|Search engine|
+|Secondary database models|Document store|--|--|
+|Developer|Elastic|Apache Software Foundation|Splunk Inc.|
+|Initial release|2010|2006|2003|
+|Current release|7.7.0, May 2020|8.5.2, May 2020|--|
+|License|Open Source|Open Source|Commercial|
+|DBaaS offerings|Elasticsearch Service on Elastic Cloud: Try out the official hosted Elasticsearch and Kibana offering available on AWS, GCP and Azure that's powered by the creators of Elasticsearch.|--|--|
+|Implementation language|Java|Java|--|
+|Server operating systems|All OS with a Java VM|All OS with a Java VM|Linux, OS X, Solaris, Windows|
+|Data scheme|schema-free info|Yes|Yes|
+|XML support|No|Yes|Yes|
+|SQL|SQL-like query language|Solr Parallel SQL Interface|No|
+|APIs and other access methods|Java API, RESTful HTTP/JSON API|Java API, RESTful HTTP/JSON API|HTTP REST|
+|Supported programming languages|.Net<br>Groovy<br>Community Contributed Clients<br>Java<br>JavaScript<br>Perl<br>PHP<br>Python<br>Ruby|.Net<br>Erlang<br>Java<br>JavaScript<br>any language that supports sockets and either XML or JSON<br>Perl<br>PHP<br>Python<br>Ruby<br>Scala|C#<br>Java<br>JavaScript<br>PHP<br>Python<br>Ruby|
+|MapReduce|ES-Hadoop Connector|spark-solr|Yes|
+|In-memory capabilities|Memcached and Redis integration|Yes|No|
+|WebSite|[ELASTIC SEARCH](https://www.elastic.co/)|[SOLR](https://lucene.apache.org/solr/)|[SPLUNK](https://www.splunk.com/)|
+### References
+ 
+ 
+[greenice](https://greenice.net/elasticsearch-vs-solr-vs-sphinx-best-open-source-search-platform-comparison/)
+
+[mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
+
+[DB_compare](https://db-engines.com/en/system/Elasticsearch%3BSolr%3BSplunk)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTgxNjYzMDUxOSwzNDMzNzY3NTgsLTc1MT
 gyOTgyMCwtOTIwMTE2MDE0LDUyODExMjU0OCwtMTI2NTI2Nzg0
