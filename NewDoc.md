@@ -50,9 +50,10 @@ Columnar databases use different techniques to imitate a relational structure. S
 > + [Microsoft SQL Server](https://www.microsoft.com/)
 > + [Apache Cassandra](https://cassandra.apache.org/)
 > + [Vertica](https://www.vertica.com/)
->  + [Apache HBase](https://hbase.apache.org/)
+> + [Apache HBase](https://hbase.apache.org/)
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjExMjQ0MjIsNTI4MTEyNTQ4LC0xMj
-Y1MjY3ODQwLC02ODQ2NDg4OTAsMTYxNDI3NTczMiwxMDA3NDM3
-OTgwLDIwNTIzMzcwNjcsMjA2Mzc5NjYzXX0=
+eyJoaXN0b3J5IjpbLTkyMDExNjAxNCw1MjgxMTI1NDgsLTEyNj
+UyNjc4NDAsLTY4NDY0ODg5MCwxNjE0Mjc1NzMyLDEwMDc0Mzc5
+ODAsMjA1MjMzNzA2NywyMDYzNzk2NjNdfQ==
 -->
