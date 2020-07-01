@@ -64,6 +64,12 @@ Columnar databases use different techniques to imitate a relational structure. S
 | Publisher | [Apache Software Foundation](https://www.apache.org/) | [Apache Software Foundation](https://www.apache.org/) | [ClickHouse](https://clickhouse.tech/) |
 | Website | https://cassandra.apache.org/ | https://hbase.apache.org/ | https://clickhouse.tech/ |
 
+
+- [dzone](https://dzone.com/articles/nosql-database-types-1#:~:text=There%20are%20four%20big%20NoSQL,are%20often%20combinations%20of%20these.)
+- [dbbest](https://www.dbbest.com/blog/column-oriented-database-technologies/)
+- [greenice](https://greenice.net/elasticsearch-vs-solr-vs-sphinx-best-open-source-search-platform-comparison/)
+- [mcmaster](https://fhs.mcmaster.ca/neru/documents/limitationsofsearchdatabases.pdf)
+
 ## Time-series data
 
 ### Description
@@ -113,7 +119,7 @@ References:
 
 [https://medium.com/datadriveninvestor/what-are-time-series-databases-a3e847608f91](https://medium.com/datadriveninvestor/what-are-time-series-databases-a3e847608f91)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjIyNjA0OCwtODE2NjMwNTE5LDM0Mz
+eyJoaXN0b3J5IjpbLTcxNjg4NTIyNSwtODE2NjMwNTE5LDM0Mz
 M3Njc1OCwtNzUxODI5ODIwLC05MjAxMTYwMTQsNTI4MTEyNTQ4
 LC0xMjY1MjY3ODQwLC02ODQ2NDg4OTAsMTYxNDI3NTczMiwxMD
 A3NDM3OTgwLDIwNTIzMzcwNjcsMjA2Mzc5NjYzXX0=
