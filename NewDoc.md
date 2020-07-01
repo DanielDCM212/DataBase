@@ -75,11 +75,8 @@ A time series database is built specifically for handling metrics and events or 
 ## Advantages
 
 - Scalability
-
 - It balance the ACID/BASE relationship by offering principles that suit time series data.
-
 - Usability
-
 - Trade-offs: Database architecture is about trade-offs and priorities.
 
 ## Data features:
@@ -97,27 +94,20 @@ A time series database is built specifically for handling metrics and events or 
 ## Databases
 
  - InfluxDB
-   Kdb+
-   Prometheus
-   Graphite
-   RRDTool
-   TimescaleDB
-   OpenTSDB
-   Druid
-   
-   FaunaDB
-   
-   KairosDB
-   
-   DolphinDB
-   
-   GridDB
-   
-   eXtremeDB
-   
-   Amazon Timestream
-   
-   Alibaba Cloud TSDB
+ - Kdb+
+ - Prometheus
+ - Graphite
+ - RRDTool
+ - TimescaleDB
+ - OpenTSDB
+ - Druid
+ - FaunaDB
+ - KairosDB
+ - DolphinDB
+ - GridDB
+ - eXtremeDB
+ - Amazon Timestream
+ - Alibaba Cloud TSDB
 
 References:
 
@@ -125,7 +115,7 @@ References:
 
 [https://medium.com/datadriveninvestor/what-are-time-series-databases-a3e847608f91](https://medium.com/datadriveninvestor/what-are-time-series-databases-a3e847608f91)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTk0MDQ4NCwtODE2NjMwNTE5LDM0Mz
+eyJoaXN0b3J5IjpbMTMwMzMwMTY4MCwtODE2NjMwNTE5LDM0Mz
 M3Njc1OCwtNzUxODI5ODIwLC05MjAxMTYwMTQsNTI4MTEyNTQ4
 LC0xMjY1MjY3ODQwLC02ODQ2NDg4OTAsMTYxNDI3NTczMiwxMD
 A3NDM3OTgwLDIwNTIzMzcwNjcsMjA2Mzc5NjYzXX0=
