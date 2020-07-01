@@ -64,34 +64,32 @@ Columnar databases use different techniques to imitate a relational structure. S
 | Publisher | [Apache Software Foundation](https://www.apache.org/) | [Apache Software Foundation](https://www.apache.org/) | [ClickHouse](https://clickhouse.tech/) |
 | Website | https://cassandra.apache.org/ | https://hbase.apache.org/ | https://clickhouse.tech/ |
 
-## Description
+## Time-series data
+
+### Description
 
 A time series database (TSDB) is a database optimized for time-stamped or time series data. Time series data are simply measurements or events that are tracked, monitored, down sampled, and aggregated over time. This could be server metrics, application performance monitoring, network data, sensor data, events, clicks, trades in a market, and many other types of analytics data.
 
-## Performance
+#### Performance
 
 A time series database is built specifically for handling metrics and events or measurements that are time stamped. A TSDB is optimized for measuring change over time. Properties that make time series data very different than other data workloads are data lifecycle management, summarization, and large range scans of many records.
 
-## Advantages
+#### Advantages
 
 - Scalability
 - It balance the ACID/BASE relationship by offering principles that suit time series data.
 - Usability
 - Trade-offs: Database architecture is about trade-offs and priorities.
 
-## Data features:
+#### Data features:
 
 - Data is appended in sequence.
-
 - Data can be multi-dimensional correlated.
-
 - Hot data is typically accessed at high frequencies.
-
 - Cold data needs to be reduced in dimension and archived.
-
 - Data mainly covers values, states, and events.
 
-## Databases
+#### Databases
 
  - InfluxDB
  - Kdb+
@@ -115,7 +113,7 @@ References:
 
 [https://medium.com/datadriveninvestor/what-are-time-series-databases-a3e847608f91](https://medium.com/datadriveninvestor/what-are-time-series-databases-a3e847608f91)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzMwMTY4MCwtODE2NjMwNTE5LDM0Mz
+eyJoaXN0b3J5IjpbMTQyMjIyNjA0OCwtODE2NjMwNTE5LDM0Mz
 M3Njc1OCwtNzUxODI5ODIwLC05MjAxMTYwMTQsNTI4MTEyNTQ4
 LC0xMjY1MjY3ODQwLC02ODQ2NDg4OTAsMTYxNDI3NTczMiwxMD
 A3NDM3OTgwLDIwNTIzMzcwNjcsMjA2Mzc5NjYzXX0=
